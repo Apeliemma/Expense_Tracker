@@ -1,0 +1,31 @@
+.profile-img-container {
+    text-align: center;
+}
+
+.profile-img-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.upload-btn {
+    margin-top: 10px;
+}
+
+.upload-btn input {
+    display: none;
+}
+
+.profile-form .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.profile-form button {
+    width: 100%;
+}
+
+.profile-form .btn-primary {
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+.expense-table {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+
+.expense-table h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.expense-table table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.expense-table table th, .expense-table table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.expense-table .btn {
+    font-size: 0.875rem;
+}
+
+.modal-header {
+    background-color: #28a745;
+    color: white;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body form .form-label {
+    font-weight: bold;
+}
+
+.modal-body form button {
+    width: 100%;
+}
+
+.d-flex {
+    margin-bottom: 20px;
+}

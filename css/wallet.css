@@ -1,0 +1,53 @@
+
+
+.wallet-summary h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.wallet-summary .balance {
+    font-size: 1.75rem;
+    color: #2575fc;
+}
+
+.wallet-summary .actions button {
+    margin-right: 10px;
+    width: 150px;
+}
+
+.transaction-history {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+
+.transaction-history h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.transaction-history table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.transaction-history table th, .transaction-history table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.transaction-history .badge {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.modal-header {
+    background: #2575fc;
+    color: white;
+}
+
+.modal-body {
+    padding: 20px;
+}

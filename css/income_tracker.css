@@ -1,0 +1,27 @@
+.income-records-table {
+    margin-top: 20px;
+}
+
+.income-records-table .table {
+    border-radius: 5px;
+}
+
+.income-records-table .btn {
+    margin-right: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h4 {
+    margin-top: 20px;
+}
