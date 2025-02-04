@@ -37,13 +37,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'tonnytrevix@gmail.com';  
-            $mail->Password = 'wobj isms vlvf jufr';  
+            $mail->Username = 'Enter your username';  
+            $mail->Password = 'replace with your password';  
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             //Recipients
-            $mail->setFrom('tonnytrevix@gmail.com', 'Expense Tracker');
+            $mail->setFrom('enter your username', 'Expense Tracker');
             $mail->addAddress($email);  
 
             // Content
