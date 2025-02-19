@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_category'])) {
         if ($stmt->execute()) {
             // Success message
             echo "<script>
-                alert('Category added successfully.');
+                alert('Category aaaaaaaaaaaaaaaaaaaaaaaaaaaaf added successfully.');
                 window.location.href='categories.php'; 
             </script>";
         } else {
